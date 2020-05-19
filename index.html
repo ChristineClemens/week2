@@ -34,6 +34,53 @@
 
 <body class="container">
 
+    <script>
+        var coffeeAvailable = true;
+        var waterAvailable = true;
+        var machineAvailable = true;
+        var machinePowered = true;
+
+        var machineWaterLevel = 0;    
+        var machineKCupLoaded = true;
+        var cupUnderMachine = true;
+
+
+        console.log ("Good morning! I am your Happy Coffee Machine!");
+
+        if (coffeeAvailable && waterAvailable && machineAvailable && machinePowered) {
+            console.log ("I checked for coffee, water, and machine availability. All clear!");
+        } else {
+            console.log ("Sorry, the Gods have frowned upon you. No coffee today.");
+            exit;
+        }
+        
+        if (machinePowered) {
+            console.log ("I'm so turned on right now, well done.");
+        } else {
+            console.log ("I need some foreplay, fondle my power button.")
+        }
+
+        if (machineKCupLoaded) {
+            console.log ("K-cup has been successfully loaded!");
+        } else {
+            console.log ("Sorry, K-cup has not yet been loaded...");
+        }
+
+        if (cupUnderMachine) {
+            console.log ("Cup in place.");
+        } else {
+            console.log ("Bruh, we're missing your cup. Don't ask for messes.");
+        }
+
+        if (machineWaterLevel) {
+            console.log ("Water reservoir has been filled sufficiently.");
+        } else {
+            console.log ("Drier than a camel in the desert, help me out.");
+        }
+
+
+    </script>
+
     <div class="jumbotron">
         <h1 class="display-4">Welcome Back Class!</h1>
     </div>
@@ -60,6 +107,6 @@
         This is a div with some more stuff.
         This is a unique character: &#x13B9;
     </div>
-    
+
 </body>
 </html>

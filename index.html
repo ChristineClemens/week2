@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://db.onlinewebfonts.com/c/3f3f1a887702b525cda01f7cd776b241?family=Gadugi" rel="stylesheet" type="text/css"/>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <title>Welcome Back Class!</title>
 
 <style>
@@ -31,19 +32,30 @@
 </style>
 </head>
 
-<body>
+<body class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+    </div>
     <h1>
         Welcome Back Class!
     </h1>
-    <p class="mainParagraph">
-        This is a descriptive text paragraph.
-    </p>
-    <p>
-        Another descriptive paragraph.
-    </p>
-    <p class="mainParagraph">
-        And yet another descriptive paragraph.
-    </p>
+    <div class="row">
+        <div class="col">
+            <p class="mainParagraph">
+                This is a descriptive text paragraph.
+            </p>
+        </div>
+        <div class="col">
+            <p class="mainParagraph">
+                Another descriptive paragraph.
+            </p>
+        </div>
+        <div class="col">
+            <p class="mainParagraph">
+                And yet another descriptive paragraph.
+            </p>
+        </div> 
+    </div>
     <div id="alertBox">
         This is a div with some more stuff.
         This is a unique character: &#x13B9;
